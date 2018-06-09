@@ -1,5 +1,6 @@
 # Pdf_Booking_Printing
 PDF rearrange utility for being capable to print a pdf in a book form. 
+(is the: PDF_script.py)
 
 
 Problem: If you want to print a pdf in order to make a book*, the natural order of the pages in the pdf file make imposible to achieve the correct order in the printed book.
