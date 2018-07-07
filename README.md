@@ -16,3 +16,4 @@ Also, you can use this utility with any number of PDFs at once.
 I hope that this may will be usefull for you. And that someone ever use it apart from me jajaja. 
 
 Greetings! 
+Nicolás Schiappacasse Vega
