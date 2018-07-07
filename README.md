@@ -11,6 +11,8 @@ Problem: If you want to print a pdf in order to make a book*, the natural order 
 
 Solution: This utility rearrange the pages of the pdf file in a way that achieve the correct order in the printed book. After this, you take the output_pdf and configure the printer in "two page for sheet, doble-siding printing". And if your printer shift the page automatically, you have to set "Short edge flip" or something similar. 
 
+Also, you can use this utility with any number of PDFs at once.
+
 I hope that this may will be usefull for you. And that someone ever use it apart from me jajaja. 
 
 Greetings! 
