@@ -224,7 +224,7 @@ print("*This mean: two page for sheet, in a doble-siding printing. Each printed 
 print()
 print()
 print("The Solution:")
-print("This utility rearrange the pages of the pdf file in a way that achieve the correct order in the printed book. After this, you take the output_pdf and configure the printer in 'two page for sheet, doble-siding printing'. And if your printer shift the page automatically, you have to set 'Short edge flip' or something similar."
+print("This utility rearrange the pages of the pdf file in a way that achieve the correct order in the printed book. After this, you take the output_pdf and configure the printer in 'two page for sheet, doble-siding printing'. And if your printer shift the page automatically, you have to set 'Short edge flip' or something similar.")
 print()
 print()
 print("I hope that this may will be usefull for you. And that someone ever use it apart from me jajaja.")
