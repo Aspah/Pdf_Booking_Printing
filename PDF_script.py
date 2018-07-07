@@ -193,7 +193,7 @@ for files in (os.listdir(PATH_input)):
         finally:
             os.chdir(PATH_temp)
 
-
+print("The processed file will be in the 'Output Folder'")
 
 
         
@@ -205,7 +205,37 @@ for files in (os.listdir(PATH_input)):
 
 #input("...")
 clean_directory()
-    
+
+print("=====================================================================================================")
+print()
+print()
+print()
+print()
+print()
+print("PDF REARRANGE UTILITY FOR BEING CAPABLE TO PRINT A PDF IN A BOOK FORM")
+print("Instructions: ")
+print()
+print()
+print()
+print("The Problem:") 
+print("If you want to print a pdf in order to make a book*, the natural order of the pages in the pdf file make imposible to achieve the correct order in the printed book.")
+print()
+print("*This mean: two page for sheet, in a doble-siding printing. Each printed page is folded by half and stack with every other folded page printed. In this way, you can create a manageable book with a confort size and less paper waste.")
+print()
+print()
+print("The Solution:")
+print("This utility rearrange the pages of the pdf file in a way that achieve the correct order in the printed book. After this, you take the output_pdf and configure the printer in 'two page for sheet, doble-siding printing'. And if your printer shift the page automatically, you have to set 'Short edge flip' or something similar."
+print()
+print()
+print("I hope that this may will be usefull for you. And that someone ever use it apart from me jajaja.")
+print()
+print()
+print("Greetings!")
+print()
+print()
+print()
+print()
+input("When you're ready, press any key to escape. ")
 
 
 
