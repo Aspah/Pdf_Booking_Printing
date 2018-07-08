@@ -240,6 +240,9 @@ input("When you're ready, press Enter to exit... ")
 clean_directory()
 
 
+
+
+
 #assert rearrange(5) == [4,1,2,3,0,5]
 #assert rearrange(6) == [4,1,2,3,0,5,6]
 #assert rearrange(7) == [4,1,2,3,0,5,6,7]
@@ -248,4 +251,5 @@ clean_directory()
 #assert rearrange(1) == [0,1]
 #assert rearrange(2) == [0,1,2]
 #assert rearrange(3) == [0,1,2,3]
+
 
