@@ -1,6 +1,6 @@
 Pdf_Booking_Printing
 
-PDF rearrange utility for being capable to print a pdf in a book form.
+Page rearranging app, that allow print a PDF in the necessary compagination for set up it in book format
 Instructions:
 
 
@@ -24,4 +24,4 @@ I hope that this may will be usefull for you. And that someone ever use it apart
 
 Greetings!
 
-Nicol·s Schiappacasse Vega.
+Nicol√°s Schiappacasse Vega.
