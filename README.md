@@ -1,5 +1,5 @@
 # Pdf_Booking_Printing
-PDF rearrange utility for being capable to print a pdf in a book form. 
+Page rearranging app, that allow print a PDF in the necessary compagination for set up it in book format
 
 (Pd: The file is 'PDF_script.py' the rest are test and similar)
 
