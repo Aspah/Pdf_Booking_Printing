@@ -31,7 +31,7 @@ def mk_directory():
         os.mkdir(PATH_output)
     if os.path.exists(PATH_temp) == True:           #Revisa si existe la carpeta PDF_temp. Si existe, borra la carpeta 
         shutil.rmtree(PATH_temp)                    #y todo su contenido (para evitar mezclar archivos intermedios)
-    os.mkdir(PATH_temp)                             #Finalmente crea una carpeta PDF_temp nueva y vacía. 
+    os.mkdir(PATH_temp)                             #Finalmente crea una carpeta mkPDF_temp nueva y vacía. 
     
     print("Please put your pdf inside the 'PDF_input' folder")
     input("Press Enter to continue...")
@@ -149,7 +149,7 @@ def rearrange(num):
 print("This program will create files and folders in the local folder in where this script.py is executed")
 a = input("Do you want to continue? Press 'y' for yes / Pres 'n' for no:  ")
 if a == 'n':
-    raise SystemExit
+    raise SystemExit            #Uso de 'raise SystemExit' para que el programa se cierre. 
 
 mk_directory()
 
