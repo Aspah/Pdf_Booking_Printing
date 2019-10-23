@@ -14,7 +14,7 @@ from shutil import copyfile
 
 def mk_directory():
     global PATH
-    PATH = os.getcwd()
+    PATH = os.getcwd()                  #retorna un string referente al actual directorio. Soporta Unix y Windows.
     
     global PATH_input
     PATH_input = PATH + '/PDF_Input'
@@ -25,18 +25,18 @@ def mk_directory():
     global PATH_temp
     PATH_temp = PATH + '/PDF_Temp'
     
-    if os.path.exists(PATH_input) == False:
-        os.mkdir(PATH_input)
+    if os.path.exists(PATH_input) == False:         #Revisa si existen las carpetas PDF_input y PDF_Output.
+        os.mkdir(PATH_input)                        #Si no existen, las crea. 
     if os.path.exists(PATH_output) == False:
         os.mkdir(PATH_output)
-    if os.path.exists(PATH_temp) == True:
-        shutil.rmtree(PATH_temp)
-    os.mkdir(PATH_temp)
+    if os.path.exists(PATH_temp) == True:           #Revisa si existe la carpeta PDF_temp. Si existe, borra la carpeta 
+        shutil.rmtree(PATH_temp)                    #y todo su contenido (para evitar mezclar archivos intermedios)
+    os.mkdir(PATH_temp)                             #Finalmente crea una carpeta PDF_temp nueva y vacía. 
     
     print("Please put your pdf inside the 'PDF_input' folder")
     input("Press Enter to continue...")
     #print (os.listdir(PATH_input))
-    assert os.listdir(PATH_input) != [], "There is no files inside the input folder"
+    assert os.listdir(PATH_input) != [], "There is no files inside the input folder"    
     
     
     
